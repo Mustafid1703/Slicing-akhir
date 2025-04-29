@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+        
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    padding: 20px;
+}
+.logo h1{
+    color: black;
+    font-size: 33px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav-link ul{   
+    display: flex;
+    list-style: none;
+}
+.nav-link ul li a{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    transition: 0.06s;
+    padding: 15px;
+}
+.home{
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(to bottom right, rgb(42, 94, 207),rgb(64, 209, 228));
+    text-align: center;
+
+}
+.home h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 140px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.home p{
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+.tombol{
+    margin-top: 40px;
+}
+.tombol a{
+    text-decoration: none;
+    color: blue;
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.konten{
+    display: flex;
+    padding: 80px ;
+    gap: 50px;
+}
+.konten .isi {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.konten h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 37px;
+    color: blue;
+}
+.konten p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+img{
+    border-radius: 20px;
+}
+footer p{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(43, 42, 42);
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    margin-top: 80px;
+}
+    </style>
+</head>
+<body>
+
+     <header>
+        <div class="logo">
+            <h1>WebKita</h1>
+        </div>
+        <nav class="nav-link">
+            <ul>
+                <li><a href="#">Beranda</a></li>
+                <li><a href="#">Tentang</a></li>
+                <li><a href="#">Layanan</a></li>
+                <li><a href="#">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="home">
+        <h1>Bangun Web Impianmu</h1>
+        <p>Mulailah Belajar Web development dari dasar hingga mahir dengan disain elegan dan clen </p>
+        <div class="tombol">
+            <b><a href="#">Mulai sekarang</a></b>
+        </div>
+    </section>
+    <section class="konten">
+        <div class="isi">
+            <h1>Tentang WebKita</h1>
+            <p>WebKite adalah platform belajar mandiri yang dirancang untuk membantu pelajar dan
+                pengembang pemula memahami dunia pemrograman web. Fokus kami adalah membangun 
+                fondasi yang kuat dengan pengalaman visual yang menyenangkan dan responsif.
+            </p>
+            
+        </div>
+        <img src="aset/webkite.jpg" alt="">
+    </section>
+    <footer>
+        <p>&copy; 2025 WebKite. All rights reserved.</p>
+     </footer>
+</body>
+</html>
